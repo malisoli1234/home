@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@font-face {
+    font-family:irsans;
+    src: url('fonts/Iranian\ Sans.ttf') format('truetype');
+}
+
+div.head1{
+   
+    background-image: url(images/img5.jpg);
+    text-align: center;
+    
+    height: 600px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+
+
+}
+span.headmenu {
+    text-align: center;
+   
+    background-color: aqua;
+    position: relative;
+    top: 30px;
+    
+}
+span.head2{
+    position: relative;
+    top: 20px;
+    
+}
+
+a.headmenu{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: irsans;
+    margin: 20px;
+    font-size: 30px;
+    
+    
+    
+    
+}
+
+
+a.head2{
+    text-decoration: none;
+    font-size: 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: powderblue;
+    
+    border-radius: 5px;
+    padding: 10px;
+  
+    color: rgb(255, 255, 255);
+    text-shadow:black 10px;
+}
+div.headimg{
+    margin: 5px;
+    text-align: center;
+    
+}
+img.headimg{
+    width: 75%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+
+}
+div.mahsol{
+    text-align: center;
+    
+}
+span.mahsol{
+   
+    display: inline-block;
+    width: 100px;
+}
+img.mahsol{
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 5px;
+} 
+img.head1{
+    
+    width: 100%;
+    
+}
